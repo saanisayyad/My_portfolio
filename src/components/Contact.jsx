@@ -57,12 +57,12 @@ const Contact = () => {
             <h3 className="text-lg font-semibold text-center">LinkedIn</h3>
             <p className="mt-1 text-center">
               <a
-                href="https://www.linkedin.com/in/your-username"
+                href="https://www.linkedin.com/in/mohammadsaani-sayyad-4b7936236/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                linkedin.com/in/your-username
+                linkedin.com/in/md-saani
               </a>
             </p>
           </div>

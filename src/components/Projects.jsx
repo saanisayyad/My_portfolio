@@ -18,18 +18,17 @@ const Projects = () => {
           <h3 className="text-xl font-semibold">
             Big Basket Product Analysis
           </h3>
-          <p className="mt-2 text-gray-700">
-            Designed an interactive Power BI dashboard to analyze sales
-            performance, profit trends, and regional insights for a global
-            retail chain.
+          <p className="mt-2 text-gray-700 text-justify">
+            Analyzed the product sales data to understand it's distribution across different brands
+            using interactive visuals and useful insights.
           </p>
           <p className="mt-2 text-sm text-gray-600">
-            <strong>Tools:</strong> Power BI, Excel
+            <strong>Tools:</strong> Power BI, Python, Jupyter Notebook
           </p>
           <ul className="list-disc list-inside mt-3 text-gray-700 text-sm">
-            <li>Cleaned and transformed raw sales data using Power Query.</li>
-            <li>Built KPIs and visualizations: Sales, Profit, Top Categories.</li>
-            <li>Applied slicers for dynamic regional and time-based filters.</li>
+            <li>Cleaned and transformed raw sales data using Python.</li>
+            <li>Built KPIs and visualizations: Products, Brands, Avg Rating.</li>
+            <li>Applied slicers for products, brands and price based filters.</li>
           </ul>
           <div className="mt-4 flex space-x-4">
             <a
@@ -57,11 +56,11 @@ const Projects = () => {
             COVID-19 Global Impact Analysis
           </h3>
           <p className="mt-2 text-gray-700">
-            Analyzed global COVID-19 trends to understand the impact across
+            Built an interactive dashboard for COVID-19 trends to understand the impact across
             countries using interactive visuals and statistical insights.
           </p>
           <p className="mt-2 text-sm text-gray-600">
-            <strong>Tools:</strong> Power BI, Python (Pandas), Jupyter Notebook
+            <strong>Tools:</strong> Power BI, Excel
           </p>
           <ul className="list-disc list-inside mt-3 text-gray-700 text-sm">
             <li>Processed global COVID data with Pandas.</li>

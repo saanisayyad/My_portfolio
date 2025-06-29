@@ -16,8 +16,9 @@ const Skills = () => {
         <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition p-6 flex flex-col items-center text-center">
           <FaDatabase size={36} className="text-blue-700 mb-4" />
           <h3 className="text-xl font-semibold text-blue-900 mb-2">SQL</h3>
-          <p className="text-gray-600 text-sm">
-            Working with relational databases and writing optimized queries.
+          <p className="text-gray-700 text-sm text-justify">
+            Proficient in writing complex queries using SELECT, JOIN, GROUP BY, CTE, subqueries, and window functions.
+            Experienced with relational databases like MySQL and PostgreSQL for reporting and analysis.
           </p>
         </div>
 
@@ -28,8 +29,9 @@ const Skills = () => {
             className="w-8 h-9 hover:scale-110 transition mb-4"
           />{" "}
           <h3 className="text-xl font-semibold text-blue-900 mb-2">Power BI</h3>
-          <p className="text-gray-600 text-sm">
-            Designing dashboards and visual reports using business data.
+          <p className="text-gray-700 text-sm text-justify">
+            Able to design interactive and visually compelling dashboards.
+            Proficient in Power Query and DAX (Data Analysis Expressions) for advanced data modeling and calculated measures.
           </p>
         </div>
 
@@ -38,25 +40,27 @@ const Skills = () => {
           <h3 className="text-xl font-semibold text-blue-900 mb-2">
             Jupyter Notebook
           </h3>
-          <p className="text-gray-600 text-sm">
-            Performing exploratory data analysis using Python notebooks.
+          <p className="text-gray-700 text-sm text-justify">
+            Used extensively for data analysis, data visualization, and documentation of Python-based workflows.
+            Well-versed in integrating Markdown and code cells to create reproducible and readable analyses.
           </p>
         </div>
 
         <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition p-6 flex flex-col items-center text-center">
           <FaPython size={36} className="text-yellow-500 mb-4" />
           <h3 className="text-xl font-semibold text-blue-900 mb-2">Python</h3>
-          <p className="text-gray-600 text-sm">
-            Writing clean scripts for automation, data processing, and logic.
+          <p className="text-gray-700 text-justify text-sm">
+            Skilled in data manipulation using pandas, numpy, and data visualization using matplotlib and seaborn.
+            Familiar with data cleaning, EDA (Exploratory Data Analysis), and automating repetitive tasks.
           </p>
         </div>
 
         <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition p-6 flex flex-col items-center text-center">
           <FaFileExcel size={36} className="text-green-600 mb-4" />
           <h3 className="text-xl font-semibold text-blue-900 mb-2">MS Excel</h3>
-          <p className="text-gray-600 text-sm">
-            Advanced spreadsheet operations with formulas, charts, and pivot
-            tables.
+          <p className="text-gray-700 text-justify text-sm">
+            Proficient in using formulas, pivot tables, charts, VLOOKUP/XLOOKUP, and conditional formatting.
+            Familiar with Excel dashboards and data consolidation techniques.
           </p>
         </div>
 
@@ -65,8 +69,10 @@ const Skills = () => {
           <h3 className="text-xl font-semibold text-blue-900 mb-2">
             Communication Skills
           </h3>
-          <p className="text-gray-600 text-sm">
-            Strong verbal and written communication for teams and clients.
+          <p className="text-gray-700 text-justify text-sm">
+            Strong verbal and written communication skills.
+            Comfortable presenting technical insights to both technical and non-technical stakeholders.
+            Capable of translating data findings into actionable recommendations.
           </p>
         </div>
       </div>
